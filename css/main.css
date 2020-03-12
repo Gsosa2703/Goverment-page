@@ -1,0 +1,122 @@
+
+
+.icono-email {
+  background: white;
+  /* Fondo del icnono */
+  box-sizing: border-box;
+  width: 40px;
+  /* Alto del icono */
+  height: 30px;
+  /* Ancho del icono */
+  border: 1px solid #777;
+  /* Borde del icono */
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .095);
+  /* Sombra */
+  position: relative;
+  display: inline-block;
+}
+
+.icono-email:before,
+.icono-email:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icono-email:before {
+  border: 19px solid transparent;
+  border-top: 20px solid #777;
+  /* Color igual a color de borde */
+}
+
+.icono-email:after {
+  border: 18px solid transparent;
+  border-top: 19px solid white;
+  /* Color igual a color de fondo */
+  left: 1px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  font-size: 20px;
+}
+
+footer {
+  background: #D8E2CD;
+  text-align: center;
+  border: solid 1px #BAC4B0;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+}
+
+#desplegar {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+}
+
+h2 {
+  color: darkblue;
+}
+
+.btn {
+  background: darkblue;
+  border: solid 1px darkblue;
+}
+label, span {
+  font-size: 18px;
+  padding: 10px;
+}
+#checkbox {
+  background:  #E4F0D9;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+}
+.filter {
+  padding: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.logo {
+  height: 200px;
+  width: 700px;
+}
+.div {
+  height: 200px;
+  width: 600px;
+}
+.congress  {
+   height: 175px;
+  width:325px;
+}
+.logoCongreso {
+  height:275px;
+  width:450px;
+  
+}
+.barra {
+  border-radius:  20px;
+}
+
+.input-group-text{
+  color: #587AF9;
+  
+}
+
+.subtitulo-loyalty{
+  font-size: 25px;
+}
+.loyalty{
+  padding: 20px;
+}
